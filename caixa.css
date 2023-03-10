@@ -1,0 +1,23 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.caixa{
+    margin: 5px;
+    width: 30vw;
+    min-height: 375px;
+}
+
+.caixa>span{
+    text-align: left;
+    padding: 10px;
+    min-height: 60px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa span .valor{
+    text-align: right;
+}
